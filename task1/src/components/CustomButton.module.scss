@@ -1,0 +1,16 @@
+.button {
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    background: #302d3a;
+    color: #0772cb;
+    font-weight: bold;
+    border: none;
+    transition: .2s linear;
+
+    &:hover {
+      background-color: black;
+      color: #0772cb;
+    }
+}

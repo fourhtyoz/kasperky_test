@@ -1,0 +1,26 @@
+  .keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-top: 16px;
+  }
+  
+  .keywordTag {
+    background-color: transparent;
+    color: darkgray;
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 5px 8px;
+  }
+  
+  .count {
+    font-weight: bold;
+    margin-left: 4px;
+  }
+  
+  .showAll {
+    margin-left: 8px;
+    font-weight: 500;
+    color: #1677ff;
+  }
+  

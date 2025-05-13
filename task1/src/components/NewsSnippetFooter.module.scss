@@ -1,0 +1,30 @@
+  .footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    gap: 20px;
+  }
+
+  .footerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .originalSource {
+    display: block;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 8px;
+    background: #302d3a;
+    color: #0772cb;
+    font-weight: bold;
+    border: none;
+    transition: .2s linear;
+
+    &:hover {
+      background-color: black;
+      color: #0772cb;
+    }
+  }
+  
