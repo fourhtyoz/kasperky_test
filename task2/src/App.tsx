@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import HighlightedTextarea from './components/HighlightedTextarea';
+import { HighlightedTextarea } from './components/HighlightedTextarea';
 import styles from './App.module.scss';
 
 function App() {

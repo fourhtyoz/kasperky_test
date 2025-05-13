@@ -7,8 +7,9 @@ interface Token {
   value: string;
 }
 
-const HighlightedTextarea: React.FC<TextAreaProps> = ({ value = '', onChange, ...props }) => {
+export const HighlightedTextarea: React.FC<TextAreaProps> = ({ value = '', onChange, ...props }) => {
   const [tokens, setTokens] = useState<Token[]>([]);
+  
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const highlightedRef = useRef<HTMLDivElement>(null);
 
@@ -80,5 +81,3 @@ const HighlightedTextarea: React.FC<TextAreaProps> = ({ value = '', onChange, ..
     </div>
   );
 };
-
-export default HighlightedTextarea;
