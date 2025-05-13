@@ -9,7 +9,7 @@ interface Token {
 
 export const HighlightedTextarea: React.FC<TextAreaProps> = ({ value = '', onChange, ...props }) => {
   const [tokens, setTokens] = useState<Token[]>([]);
-  
+
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const highlightedRef = useRef<HTMLDivElement>(null);
 
@@ -77,7 +77,9 @@ export const HighlightedTextarea: React.FC<TextAreaProps> = ({ value = '', onCha
         className={styles.textarea}
         autoComplete="off"
         spellCheck="false"
+        maxLength={1000}
       />
+      <div style={{ marginTop: 10 }}>Chars left: {1000 - String(value).length}</div>
     </div>
   );
 };

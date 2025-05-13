@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className={styles.container}>
-      <h1>Task 2: Expression highlighter</h1>
+      <h1>Task 2: Expression Highlighter</h1>
       <HighlightedTextarea
         value={value}
         onChange={(e) => setValue(e.target.value)}
