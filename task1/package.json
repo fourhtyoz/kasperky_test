@@ -14,8 +14,6 @@
     "antd": "^5.25.1",
     "country-flag-icons": "^1.5.19",
     "dayjs": "^1.11.13",
-    "mobx": "^6.13.7",
-    "mobx-react-lite": "^4.1.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "sass": "^1.88.0"

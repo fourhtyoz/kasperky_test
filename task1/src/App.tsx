@@ -1,4 +1,3 @@
-import { newsStore } from './stores/newsStore'
 import { NewsSnippet } from './components/NewsSnippet'
 import type { IData_SnippetNews } from './types'
 import styles from "./App.module.scss"
@@ -53,10 +52,9 @@ const mockData: IData_SnippetNews = {
 }
 
 function App() {
-    newsStore.setNewsData(mockData)
     return (
         <div className={styles.wrapper}>
-            <NewsSnippet />
+            <NewsSnippet data={mockData} />
         </div>
     )
 }

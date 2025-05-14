@@ -1,6 +1,4 @@
 import { Card, Typography } from "antd"
-import { observer } from "mobx-react-lite"
-import { newsStore } from "../stores/newsStore"
 import { NewsSnippetHeader } from "./NewsSnippetHeader"
 import { NewsSnippetInfo } from "./NewsSnippetInfo"
 import { NewsSnippetText } from "./NewsSnippetText"
@@ -8,10 +6,14 @@ import { NewsSnippetKeywords } from "./NewsSnippetKeywords"
 import { NewsSnippetFooter } from "./NewsSnippetFooter"
 import { NewsSnippetDuplicates } from "./NewsSnippetDuplicates"
 import styles from "./NewsSnippet.module.scss"
+import type { IData_SnippetNews } from "../types"
+
+interface NewsSnippetProps {
+    data: IData_SnippetNews
+}
 
 const { Title } = Typography
-export const NewsSnippet = observer(() => {
-    const data = newsStore.newsData
+export const NewsSnippet = ({ data }: NewsSnippetProps) => {
     if (!data) {
         return (
             <Title style={{ color: 'white' }}>No data</Title>
@@ -29,4 +31,4 @@ export const NewsSnippet = observer(() => {
             <NewsSnippetDuplicates duplicates={data} />
         </Card>
     )
-})
+}
