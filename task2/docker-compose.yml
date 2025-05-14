@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  task2:
+    build: .
+    ports:
+      - "3002:80"
+    volumes:
+      - ./src:/app/src
