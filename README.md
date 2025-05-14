@@ -18,6 +18,7 @@ docker-compose up --build
 
 # Task 2
 Создать компонент HighlightedTextarea, обладающий функционалом Textarea библиотеки Ant Design с подсветкой синтаксиса логических выражений.
+Технологии: Typescript, SCSS, React, Ant Design.
 
 ## Setup
 
