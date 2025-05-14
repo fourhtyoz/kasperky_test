@@ -13,7 +13,7 @@ docker-compose up --build
 После сборки перейти по адресу: `http://localhost:3001`
 
 ## Screenshot
-<img src="image-1.png" width="60%">
+<img src="image-1.png">
 
 
 # Task 2
@@ -30,5 +30,5 @@ docker-compose up --build
 После сборки перейти по адресу: `http://localhost:3002`
 
 ## Screenshot
-<img src="image-2.png" width="60%">
+<img src="image-2.png">
 
