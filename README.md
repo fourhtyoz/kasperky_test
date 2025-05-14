@@ -1,7 +1,7 @@
 # Task 1
 На основе предоставленного скриншота реализовать компонент отображения блока новости.
 
-Технологии: Typescript, SCSS, React, Ant Design.
+Технологии: Typescript, SCSS, Mobx, React, Ant Design.
 
 ## Setup
 
