@@ -1,11 +1,11 @@
-  .duplicateCard {
+.duplicateCard {
     background: transparent;
     margin-block: 20px;
     border: 1.5px solid #083b68;
     padding: 5px;
-  }
+}
 
-  .originalSource {
+.originalSource {
     display: block;
     width: fit-content;
     padding: 10px;
@@ -17,8 +17,8 @@
     transition: .2s linear;
 
     &:hover {
-      background-color: black;
-      color: #0772cb;
+        background-color: black;
+        color: #0772cb;
     }
-  }
+}
   

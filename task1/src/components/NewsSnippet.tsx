@@ -9,7 +9,6 @@ import { NewsSnippetFooter } from "./NewsSnippetFooter"
 import { NewsSnippetDuplicates } from "./NewsSnippetDuplicates"
 import styles from "./NewsSnippet.module.scss"
 
-
 const { Title } = Typography
 export const NewsSnippet = observer(() => {
     const data = newsStore.newsData

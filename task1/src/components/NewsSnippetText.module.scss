@@ -1,29 +1,30 @@
-  .highlightText {
+.highlightText {
     color: lightgray;
     margin: 8px 0;
     line-height: 1.6;
-  }
+}
 
-  .highlightTextCollapsed {
+.highlightTextCollapsed {
     display: -webkit-box;
+    line-clamp: 3;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   
-  .keywordHighlight {
+.keywordHighlight {
     background-color: #0772cb;
     color: #fff;
     border-radius: 5px;
     padding: 2px 8px;
     font-weight: 500;
     display: inline-block;
-  }
+}
   
-  .showMore {
+.showMore {
     display: block;
     margin-top: 4px;
     color: #1677ff;
     font-weight: 500;
-  }
+}

@@ -1,17 +1,17 @@
-  .footer {
+.footer {
     display: flex;
     flex-direction: column;
     margin-top: 16px;
     gap: 20px;
-  }
+}
 
-  .footerInfo {
+.footerInfo {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
+}
 
-  .originalSource {
+.originalSource {
     display: block;
     width: fit-content;
     padding: 10px;
@@ -23,8 +23,8 @@
     transition: .2s linear;
 
     &:hover {
-      background-color: black;
-      color: #0772cb;
+        background-color: black;
+        color: #0772cb;
     }
-  }
+}
   

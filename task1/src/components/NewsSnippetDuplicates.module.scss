@@ -1,4 +1,4 @@
-  .showDuplicates {
+.showDuplicates {
     color: lightgray;
     background: transparent;
     width: 100%;
@@ -6,7 +6,7 @@
     border: 1px solid rgba(255, 255, 255, 0.5);
     
     &:hover {
-      background-color: black !important;
-      color: #66bfff !important;
+        background-color: black !important;
+        color: #66bfff !important;
     }
-  }
+}

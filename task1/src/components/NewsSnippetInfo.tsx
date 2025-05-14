@@ -10,7 +10,7 @@ interface NewsSnippetInfoProps {
     CNTR?: string;
     LANG?: string;
     AU?: string[];
-  }
+}
 
 const { Text, Link } = Typography
 export const NewsSnippetInfo = ({ FAV, DOM, CNTR_CODE, CNTR, LANG, AU = [] }: NewsSnippetInfoProps) => {
